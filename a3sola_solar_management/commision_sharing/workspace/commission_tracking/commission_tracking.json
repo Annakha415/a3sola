@@ -1,0 +1,153 @@
+{
+ "cards_label": "Reports & Masters",
+ "category": "Modules",
+ "charts": [],
+ "charts_label": "",
+ "creation": "2024-07-05 13:34:43.986170",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Commission Tracking",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Hierarchy",
+   "link_to": "Employee Hierarchy",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mapping for General Manager and Zonal Manager",
+   "link_to": "General Manager and Zonal Manager Mapping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mapping for Area Manager and Marketing Manager",
+   "link_to": "Area Manager and Marketing Manager Mapping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mapping for Regional Manager and Area Manager",
+   "link_to": "Regional Manager and Area Manager Mapping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mapping for Area Manager and Marketing Manager ",
+   "link_to": "Area Manager and Marketing Manager Mapping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mapping for Marketing Manager and Telecaller ",
+   "link_to": "Marketing Manager and Telecaller Mapping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Sales",
+   "link_to": "Daily Sales",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Commission Settings",
+   "link_to": "Commission Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_to": "Employee Hierarchy",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Hierarchy Report",
+   "link_to": "Employee Hierarchy",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manager Wise Commission Allocation",
+   "link_to": "Manager Wise Commission Allocation",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-05 18:36:30.492817",
+ "modified_by": "Administrator",
+ "module": "Commision Sharing",
+ "name": "Commission Tracking",
+ "onboarding": "",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Daily sales",
+   "link_to": "Daily Sales",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "Employee Hierarchy",
+   "link_to": "Employee Hierarchy",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "Report Builder",
+   "label": "Employee Hierarchy Report",
+   "link_to": "Employee Hierarchy",
+   "type": "Report"
+  },
+  {
+   "doc_view": "Report Builder",
+   "label": "Manager Wise Commission Allocation Report",
+   "link_to": "Manager Wise Commission Allocation",
+   "type": "Report"
+  }
+ ],
+ "shortcuts_label": ""
+}

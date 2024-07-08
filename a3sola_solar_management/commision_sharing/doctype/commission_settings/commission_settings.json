@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-05 13:43:30.821787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "commission_for_gmpercentage",
+  "commission_for_zonal_manager",
+  "commission_for_regional_manager",
+  "commission_for_area_manager",
+  "commission_for_marketing_manager",
+  "commission_for_telecaller"
+ ],
+ "fields": [
+  {
+   "fieldname": "commission_for_gmpercentage",
+   "fieldtype": "Float",
+   "label": "Commision for GM(Percentage)"
+  },
+  {
+   "fieldname": "commission_for_zonal_manager",
+   "fieldtype": "Float",
+   "label": "Commision for Zonal Manager"
+  },
+  {
+   "fieldname": "commission_for_regional_manager",
+   "fieldtype": "Float",
+   "label": "Commision for Regional Manager"
+  },
+  {
+   "fieldname": "commission_for_area_manager",
+   "fieldtype": "Float",
+   "label": "Commision for Area Manager"
+  },
+  {
+   "fieldname": "commission_for_marketing_manager",
+   "fieldtype": "Float",
+   "label": " Commision for Marketing Manager,"
+  },
+  {
+   "fieldname": "commission_for_telecaller",
+   "fieldtype": "Float",
+   "label": "Commision for Telecaller"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-05 13:49:13.951776",
+ "modified_by": "Administrator",
+ "module": "Commision Sharing",
+ "name": "Commission Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

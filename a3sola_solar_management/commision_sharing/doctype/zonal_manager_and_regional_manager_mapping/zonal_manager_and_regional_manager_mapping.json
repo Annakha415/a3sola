@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-03 13:21:22.690172",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "zm_rm_zmname",
+  "zm_rm_rmname",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fetch_from": "employee_name",
+   "fieldname": "zm_rm_zmname",
+   "fieldtype": "Link",
+   "label": "Zonal Manager",
+   "options": "Employee Hierarchy"
+  },
+  {
+   "fetch_from": "employee_name",
+   "fieldname": "zm_rm_rmname",
+   "fieldtype": "Link",
+   "label": "Regional Manager",
+   "options": "Employee Hierarchy"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Zonal Manager and Regional Manager Mapping",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-08 13:42:54.807130",
+ "modified_by": "Administrator",
+ "module": "Commision Sharing",
+ "name": "Zonal Manager and Regional Manager Mapping",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
